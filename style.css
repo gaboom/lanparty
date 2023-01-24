@@ -22,13 +22,6 @@ div {
   line-height: 1;
   padding: 20px;
   font-size: 40px;
-  
-  left: 20%;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 span {
@@ -42,4 +35,12 @@ body {
   font-family: 'Covered By Your Grace', cursive;
   color: white;
   background: #222;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
