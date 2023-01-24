@@ -1,6 +1,6 @@
 function makeTimer() {
 
-			var endTime = new Date("2023-02-17 16:20:00");			
+			var endTime = new Date('2023', '2' - 1, '17', '16', '20', '00');			
 			var endTime = (Date.parse(endTime)) / 1000;
 
 			var now = new Date();
